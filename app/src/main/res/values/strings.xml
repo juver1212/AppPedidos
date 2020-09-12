@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Guias</string>
+    <string name="channel_name">canal</string>
+
+    <string-array name="Observacion">
+        <item>Despacho normal</item>
+        <item>Autorizado por la vendedora</item>
+        <item>Otros despachos</item>
+        <item>Cliente no se encontro</item>
+        <item>Cliente se nego a recibir</item>
+        <item> Ag. transporte  se nego a recibir</item>
+        <item> Cliente no cancelo el pedido</item>
+        <item>  Cliente anulo pedido</item>
+        <item> Cliente recoge mercaderia (puerta)</item>
+        <item> No se dejo por orden de vendedor</item>
+        <item>  Direccion errada</item>
+        <item>  Fuera del horario de cliente</item>
+        <item>  Mercaderia no salio (sin mercaderia)</item>
+        <item>  Otros motivos de retorno</item>
+
+    </string-array>
+    <string name="title_activity_menu_inferior">MenuInferiorActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_menu_lateral">MenuLateralActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

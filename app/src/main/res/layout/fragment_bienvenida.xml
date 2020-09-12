@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BienvenidaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorBotonSave">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="Bienvenido"
+                android:textColor="@color/colorLetrasMenu"
+                android:textSize="35sp"
+                app:fontFamily="sans-serif-condensed-light" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/ic_person_white" />/>
+
+
+            <TextView
+                android:id="@+id/txtconductor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:text="Usuario"
+                android:textColor="@color/colorLetrasMenu"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif-condensed-light" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Entregas Pendientes"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-condensed-light" />
+
+    <TextView
+        android:id="@+id/subtitulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/colorBarraSuperior"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:text="Tu ruta inicio"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-condensed-light" />
+
+    <TextView
+        android:id="@+id/subtitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/colorBarraSuperior"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:text="Entregas realizadas"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-condensed-light" />
+
+    <TextView
+        android:id="@+id/subtitulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/colorBarraSuperior"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorBotonSave"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:scaleType="fitCenter"
+        android:text="Iniciar ahora"
+        android:textColor="@android:color/white"
+        android:textSize="7pt"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

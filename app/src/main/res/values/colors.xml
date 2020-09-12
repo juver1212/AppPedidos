@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B90000</color>
+    <color name="colorPrimaryDark">#B90000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorBarraSuperior">#B90000</color>
+    <color name="colorLetrasMenu">#fff</color>
+    <color name="colorBotonSave">#B90000</color>
+    <color name="colorBotonCancel">#727272</color>
+</resources>

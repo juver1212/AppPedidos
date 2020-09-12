@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/list_documentos"
+            android:title="Lista de documentos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/nuevo_doc"
+            android:title="Nuevo documento" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/notification"
+            android:title="Ocurrencias" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/tools"
+            android:title="Registro de datos" />
+    </group>
+
+    <item android:title="Utilitarios">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_valida_datos"
+                android:title="Validar datos moviles" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_valida_gps"
+                android:title="Validar GPS" />
+
+        </menu>
+    </item>
+
+</menu>

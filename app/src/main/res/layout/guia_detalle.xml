@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <TextView android:id="@+id/txtHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:text="GUIA"
+            android:background="#DF0202" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chk1"
+        android:layout_marginTop="10dp"
+        android:text="LLEGO AL CLIENTE"
+        android:onClick="MarcarCheckbox"
+        android:layout_below="@+id/linearLayout" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk2"
+            android:layout_marginTop="10dp"
+            android:text="ME ESTAN ATENDIENDO"
+            android:onClick="MarcarCheckbox_atencion"
+            android:layout_below="@+id/linearLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Seleccione Observacion:"
+            android:id="@+id/textView"
+            android:layout_marginTop="10dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView"
+        android:transitionGroup="true"
+        android:contextClickable="false" />
+
+    <EditText
+        android:id="@+id/campo_mensaje"
+        android:hint="Descripcion de la observacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="4"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#d5d4d4" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginTop="27dp"
+        android:hint="Kilometraje Actual"
+        android:textColorHint="#d5d4d4"
+        android:digits="1234567890 "
+        android:maxLength="19"
+        android:inputType="number"
+        android:ems="9"
+        android:singleLine="true"
+        />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/linearLayout2"
+            android:gravity="center"
+            android:id="@+id/linearLayout3">
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/ic_add_a_photo_black_24dp"
+                android:drawablePadding="8dp"
+                android:id="@+id/boton"
+                android:textColor="@android:color/white"
+                android:text="Capturar Imagen"
+                android:backgroundTint="#da4040"
+                android:textSize="5pt"
+                android:layout_above="@+id/button"
+                android:layout_alignLeft="@+id/button"
+                android:layout_alignStart="@+id/button"
+                />
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/ic_check_black_24dp"
+                android:drawablePadding="8dp"
+                android:id="@+id/button"
+                android:textColor="@android:color/white"
+                android:text="Mercaderia Despachado"
+                android:backgroundTint="#da4040"
+                android:textSize="5pt"
+                android:onClick="Despachado"
+                android:layout_alignParentBottom="true"
+                />
+        </LinearLayout>
+       <!-- <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/linearLayout2"
+            android:gravity="center"
+            android:id="@+id/linearLayout4">
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/ic_local_shipping_black_24dp"
+                android:drawablePadding="8dp"
+                android:id="@+id/button2"
+                android:textColor="@android:color/white"
+                android:text="Seguir Camino"
+                android:backgroundTint="#da4040"
+                android:textSize="5pt"
+                android:onClick="onClick2" />
+        </LinearLayout>
+        -->
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

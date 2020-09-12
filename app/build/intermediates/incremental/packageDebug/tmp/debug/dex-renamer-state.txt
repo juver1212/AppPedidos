@@ -1,0 +1,4 @@
+#Thu Aug 13 11:39:29 COT 2020
+base.0=C\:\\Users\\desarrollo1\\Desktop\\trackinn_jahesa\\AppPedidos\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

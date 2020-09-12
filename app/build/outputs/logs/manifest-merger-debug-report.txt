@@ -1,0 +1,371 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c91e9768517f37b07a97230f9c623e3e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\100d14928baf260a2ab869d9b1b06739\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-appindexing:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\80b4dc5b7b9c445a123ca381ca718ccf\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e572684702cddc84794b300ddec77fc5\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2b6f9b644e67a57eae05b39640b7aa08\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\5ab8bef591ac4b8d692ee0b97c510751\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\fbc6ffd7c31819a733eb62fc14a317e6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2530e66873b3b16d05f994caa4daa89c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\b8742ed394f25d1740e9f0ecbacafe82\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ddbd57e1bb7ebd058e536af6aa82d17b\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\73ce89a100622753dcda0a865539ce94\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\4bba9076bad9aa99f2bdc052f8f51111\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\717c5f1fc31a777ca80cd202b483eccc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\8a890d588b4f93e0de1b8877a6aec0c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\1c1b01123ddd2419d9fd25dcff81bad3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c29b33ac569c5f27d568728e11ae31f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\d1c0b4324078d51a27957c19abd3c50a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\1075a97eb6d6638c04700ded0fd7a456\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\06248bd22e6fdac740a1e43bb614404b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c3e9744974c67a1130b5788002277668\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\459e064cc39d3b50b12d0b37ede6a0dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\a5ada3a42a6b9c696112ded67cb12ee0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\346af32cfdb22088bd28222201073236\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ccab391b7ac62d192310ec0719e23695\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\8f3b1d5567432f4e2861f98b1b0d6af5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e8c24324c1984cfd5c50bd6840580903\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\de93d6f4baaebbd0f9f9f56e543200e0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\3b5d5861b9c7cf9d694db3298bfe9ffa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\0993e55033eea8b2fdfa63b868d5ed32\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\254f39ecec729d9c5d2aaca604edb8e3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\761ffa870186f75cfa7b966fc40d88aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\acd74561afbee90b58411f9a92670f9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e307d669a9c1ef619545950587c6fc6c\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\16a1645a396d0703ec728f2bcdd65ff6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\36182eef6a4b9ac4a35ea58ef9f2a78e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\03e578b4aa396e097027ea2390cb797c\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+	package
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:2:11-69
+	android:targetSandboxVersion
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:4:5-37
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:10:22-64
+uses-feature#android.hardware.camera
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:11:19-57
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:13:5-89
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:13:22-86
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACTION_VIEW
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:16:22-67
+uses-permission#android.permission.PERMISSION_GRANTED
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:17:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:19:22-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:20:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:24:5-77
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:24:22-74
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:26:5-94
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:26:22-92
+application
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:28:5-76:19
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c91e9768517f37b07a97230f9c623e3e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c91e9768517f37b07a97230f9c623e3e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\80b4dc5b7b9c445a123ca381ca718ccf\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\80b4dc5b7b9c445a123ca381ca718ccf\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e572684702cddc84794b300ddec77fc5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e572684702cddc84794b300ddec77fc5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2b6f9b644e67a57eae05b39640b7aa08\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2b6f9b644e67a57eae05b39640b7aa08\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\fbc6ffd7c31819a733eb62fc14a317e6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\fbc6ffd7c31819a733eb62fc14a317e6\AndroidManifest.xml:9:5-20
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ddbd57e1bb7ebd058e536af6aa82d17b\AndroidManifest.xml:11:5-20
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ddbd57e1bb7ebd058e536af6aa82d17b\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\de93d6f4baaebbd0f9f9f56e543200e0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\de93d6f4baaebbd0f9f9f56e543200e0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e307d669a9c1ef619545950587c6fc6c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e307d669a9c1ef619545950587c6fc6c\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\de93d6f4baaebbd0f9f9f56e543200e0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:32:9-35
+	android:label
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:33:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:34:9-44
+service#com.trackiinn.apptrack.EnvioService
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:36:9-104
+	android:enabled
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:36:47-69
+	android:exported
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:36:70-93
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:36:18-46
+activity#com.trackiinn.apptrack.MenuLateralActivity
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:38:9-41:59
+	android:label
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:40:13-64
+	android:theme
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:39:13-48
+activity#com.trackiinn.apptrack.MenuInferiorActivity
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:42:9-44:68
+	android:label
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:44:13-65
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:43:13-49
+activity#com.trackiinn.apptrack.MainActivity
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:45:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:49:27-74
+service#com.trackiinn.apptrack.ProgressIntentService
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:54:13-50
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:57:9-60:69
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2b6f9b644e67a57eae05b39640b7aa08\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2b6f9b644e67a57eae05b39640b7aa08\AndroidManifest.xml:20:9-121
+	android:permission
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:59:13-75
+	android:value
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:60:13-66
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:58:13-58
+service#com.trackiinn.apptrack.LocationService
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:62:9-64:38
+	android:enabled
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:64:13-35
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:63:13-44
+receiver#com.trackiinn.apptrack.AutomaticRun
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:66:9-75:20
+	android:enabled
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:68:13-35
+	android:permission
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:69:13-75
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:67:13-41
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:70:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:71:17-87
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:71:25-84
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:72:17-79
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:72:25-76
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:73:17-76
+	android:name
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml:73:27-73
+uses-sdk
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c91e9768517f37b07a97230f9c623e3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c91e9768517f37b07a97230f9c623e3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\100d14928baf260a2ab869d9b1b06739\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\100d14928baf260a2ab869d9b1b06739\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\80b4dc5b7b9c445a123ca381ca718ccf\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\80b4dc5b7b9c445a123ca381ca718ccf\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e572684702cddc84794b300ddec77fc5\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e572684702cddc84794b300ddec77fc5\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2b6f9b644e67a57eae05b39640b7aa08\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2b6f9b644e67a57eae05b39640b7aa08\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\5ab8bef591ac4b8d692ee0b97c510751\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\5ab8bef591ac4b8d692ee0b97c510751\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\fbc6ffd7c31819a733eb62fc14a317e6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\fbc6ffd7c31819a733eb62fc14a317e6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2530e66873b3b16d05f994caa4daa89c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\2530e66873b3b16d05f994caa4daa89c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\b8742ed394f25d1740e9f0ecbacafe82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\b8742ed394f25d1740e9f0ecbacafe82\AndroidManifest.xml:20:5-44
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ddbd57e1bb7ebd058e536af6aa82d17b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ddbd57e1bb7ebd058e536af6aa82d17b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\73ce89a100622753dcda0a865539ce94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\73ce89a100622753dcda0a865539ce94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\4bba9076bad9aa99f2bdc052f8f51111\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\4bba9076bad9aa99f2bdc052f8f51111\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\717c5f1fc31a777ca80cd202b483eccc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\717c5f1fc31a777ca80cd202b483eccc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\8a890d588b4f93e0de1b8877a6aec0c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\8a890d588b4f93e0de1b8877a6aec0c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\1c1b01123ddd2419d9fd25dcff81bad3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\1c1b01123ddd2419d9fd25dcff81bad3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c29b33ac569c5f27d568728e11ae31f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c29b33ac569c5f27d568728e11ae31f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\d1c0b4324078d51a27957c19abd3c50a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\d1c0b4324078d51a27957c19abd3c50a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\1075a97eb6d6638c04700ded0fd7a456\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\1075a97eb6d6638c04700ded0fd7a456\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\06248bd22e6fdac740a1e43bb614404b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\06248bd22e6fdac740a1e43bb614404b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c3e9744974c67a1130b5788002277668\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c3e9744974c67a1130b5788002277668\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\459e064cc39d3b50b12d0b37ede6a0dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\459e064cc39d3b50b12d0b37ede6a0dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\a5ada3a42a6b9c696112ded67cb12ee0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\a5ada3a42a6b9c696112ded67cb12ee0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\346af32cfdb22088bd28222201073236\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\346af32cfdb22088bd28222201073236\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ccab391b7ac62d192310ec0719e23695\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\ccab391b7ac62d192310ec0719e23695\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\8f3b1d5567432f4e2861f98b1b0d6af5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\8f3b1d5567432f4e2861f98b1b0d6af5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e8c24324c1984cfd5c50bd6840580903\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e8c24324c1984cfd5c50bd6840580903\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\de93d6f4baaebbd0f9f9f56e543200e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\de93d6f4baaebbd0f9f9f56e543200e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\3b5d5861b9c7cf9d694db3298bfe9ffa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\3b5d5861b9c7cf9d694db3298bfe9ffa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\0993e55033eea8b2fdfa63b868d5ed32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\0993e55033eea8b2fdfa63b868d5ed32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\254f39ecec729d9c5d2aaca604edb8e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\254f39ecec729d9c5d2aaca604edb8e3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\761ffa870186f75cfa7b966fc40d88aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\761ffa870186f75cfa7b966fc40d88aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\acd74561afbee90b58411f9a92670f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\acd74561afbee90b58411f9a92670f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e307d669a9c1ef619545950587c6fc6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\e307d669a9c1ef619545950587c6fc6c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\16a1645a396d0703ec728f2bcdd65ff6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\16a1645a396d0703ec728f2bcdd65ff6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\36182eef6a4b9ac4a35ea58ef9f2a78e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\36182eef6a4b9ac4a35ea58ef9f2a78e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\03e578b4aa396e097027ea2390cb797c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\03e578b4aa396e097027ea2390cb797c\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\desarrollo1\Desktop\trackinn_jahesa\AppPedidos\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\c4222be1a454d17982d88b6c6decefd5\AndroidManifest.xml:19:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.0] C:\Users\desarrollo1\.gradle\caches\transforms-2\files-2.1\7d2b2f58f6696aab26f3aeca45b71080\AndroidManifest.xml:6:79-143

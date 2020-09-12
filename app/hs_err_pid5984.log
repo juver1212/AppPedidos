@@ -1,0 +1,260 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32756 bytes for ChunkPool::allocate
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:273), pid=5984, tid=5552
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_91-b14) (build 1.8.0_91-b14)
+# Java VM: Java HotSpot(TM) Client VM (25.91-b14 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0138c400):  JavaThread "main" [_thread_in_vm, id=5552, stack(0x00370000,0x003c0000)]
+
+Stack: [0x00370000,0x003c0000],  sp=0x003bcaec,  free space=306k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1a894b]
+V  [jvm.dll+0x1a1208]
+V  [jvm.dll+0x8bce1]
+V  [jvm.dll+0x8bebd]
+V  [jvm.dll+0x8c357]
+V  [jvm.dll+0xa3cd4]
+V  [jvm.dll+0x3ebc2]
+V  [jvm.dll+0x3f72e]
+V  [jvm.dll+0x3f8cb]
+V  [jvm.dll+0x3fdc5]
+V  [jvm.dll+0x39aa0]
+V  [jvm.dll+0x3af96]
+V  [jvm.dll+0x4fc6f]
+V  [jvm.dll+0x5034a]
+V  [jvm.dll+0x51590]
+V  [jvm.dll+0x4e00a]
+V  [jvm.dll+0x3619f]
+V  [jvm.dll+0x39461]
+V  [jvm.dll+0x3af96]
+V  [jvm.dll+0x4fc6f]
+V  [jvm.dll+0x5034a]
+V  [jvm.dll+0x51590]
+V  [jvm.dll+0x4e00a]
+V  [jvm.dll+0x3619f]
+V  [jvm.dll+0x39461]
+V  [jvm.dll+0x3af96]
+V  [jvm.dll+0x4fc6f]
+V  [jvm.dll+0x5034a]
+V  [jvm.dll+0x51590]
+V  [jvm.dll+0x515da]
+V  [jvm.dll+0xabc68]
+V  [jvm.dll+0x7fff2]
+V  [jvm.dll+0x801d7]
+j  java.lang.ProcessEnvironment.<clinit>()V+107
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x1594e5]
+V  [jvm.dll+0x21f0ae]
+V  [jvm.dll+0x15957e]
+V  [jvm.dll+0xbefeb]
+V  [jvm.dll+0xc01a7]
+V  [jvm.dll+0xc02f8]
+V  [jvm.dll+0x84446]
+V  [jvm.dll+0x85442]
+V  [jvm.dll+0x809f7]
+j  java.lang.System.getenv(Ljava/lang/String;)Ljava/lang/String;+39
+j  sun.usagetracker.UsageTrackerClient$2.run()Ljava/lang/String;+4
+j  sun.usagetracker.UsageTrackerClient$2.run()Ljava/lang/Object;+1
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x1594e5]
+V  [jvm.dll+0x21f0ae]
+V  [jvm.dll+0x15957e]
+V  [jvm.dll+0x109def]
+C  [java.dll+0x1015]
+j  sun.usagetracker.UsageTrackerClient.getEnvPrivileged(Ljava/lang/String;)Ljava/lang/String;+8
+j  sun.usagetracker.UsageTrackerClient.getOSSpecificConfigFilePath()Ljava/lang/String;+54
+j  sun.usagetracker.UsageTrackerClient.getConfigFilePrivileged()Ljava/io/File;+17
+j  sun.usagetracker.UsageTrackerClient.setupAndTimestamp(J)V+11
+j  sun.usagetracker.UsageTrackerClient.access$000(Lsun/usagetracker/UsageTrackerClient;J)V+2
+j  sun.usagetracker.UsageTrackerClient$4.run()Ljava/lang/Void;+24
+j  sun.usagetracker.UsageTrackerClient$4.run()Ljava/lang/Object;+1
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x1594e5]
+V  [jvm.dll+0x21f0ae]
+V  [jvm.dll+0x15957e]
+V  [jvm.dll+0x109def]
+C  [java.dll+0x1015]
+j  sun.usagetracker.UsageTrackerClient.run(Ljava/lang/String;Ljava/lang/String;)V+42
+j  sun.misc.PostVMInitHook.trackJavaUsage()V+16
+j  sun.misc.PostVMInitHook.run()V+0
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x1594e5]
+V  [jvm.dll+0x21f0ae]
+V  [jvm.dll+0x15957e]
+V  [jvm.dll+0x159b01]
+V  [jvm.dll+0x159b6d]
+V  [jvm.dll+0x1770f9]
+V  [jvm.dll+0x17c50a]
+V  [jvm.dll+0xe5a41]
+C  [java.exe+0x14c6]
+C  [java.exe+0x203a]
+C  [java.exe+0xae9f]
+C  [java.exe+0xaf29]
+C  [kernel32.dll+0x4ef8c]
+C  [ntdll.dll+0x6367a]
+C  [ntdll.dll+0x6364d]
+C  0x00000000
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  java.lang.ProcessEnvironment.<clinit>()V+107
+v  ~StubRoutines::call_stub
+j  java.lang.System.getenv(Ljava/lang/String;)Ljava/lang/String;+39
+j  sun.usagetracker.UsageTrackerClient$2.run()Ljava/lang/String;+4
+j  sun.usagetracker.UsageTrackerClient$2.run()Ljava/lang/Object;+1
+v  ~StubRoutines::call_stub
+j  java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;+0
+j  sun.usagetracker.UsageTrackerClient.getEnvPrivileged(Ljava/lang/String;)Ljava/lang/String;+8
+j  sun.usagetracker.UsageTrackerClient.getOSSpecificConfigFilePath()Ljava/lang/String;+54
+j  sun.usagetracker.UsageTrackerClient.getConfigFilePrivileged()Ljava/io/File;+17
+j  sun.usagetracker.UsageTrackerClient.setupAndTimestamp(J)V+11
+j  sun.usagetracker.UsageTrackerClient.access$000(Lsun/usagetracker/UsageTrackerClient;J)V+2
+j  sun.usagetracker.UsageTrackerClient$4.run()Ljava/lang/Void;+24
+j  sun.usagetracker.UsageTrackerClient$4.run()Ljava/lang/Object;+1
+v  ~StubRoutines::call_stub
+j  java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;+0
+j  sun.usagetracker.UsageTrackerClient.run(Ljava/lang/String;Ljava/lang/String;)V+42
+j  sun.misc.PostVMInitHook.trackJavaUsage()V+16
+j  sun.misc.PostVMInitHook.run()V+0
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x440c8800 JavaThread "Service Thread" daemon [_thread_blocked, id=3844, stack(0x444c0000,0x44510000)]
+  0x440d8400 JavaThread "Attach Listener" daemon [_thread_blocked, id=5048, stack(0x44420000,0x44470000)]
+  0x440d5400 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=6732, stack(0x44390000,0x443e0000)]
+  0x440b7800 JavaThread "Finalizer" daemon [_thread_blocked, id=8080, stack(0x03990000,0x039e0000)]
+  0x44092400 JavaThread "Reference Handler" daemon [_thread_blocked, id=7416, stack(0x03940000,0x03990000)]
+=>0x0138c400 JavaThread "main" [_thread_in_vm, id=5552, stack(0x00370000,0x003c0000)]
+
+Other Threads:
+  0x4408b000 VMThread [stack: 0x038e0000,0x03930000] [id=6980]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ def new generation   total 4928K, used 353K [0x03a00000, 0x03f50000, 0x18f50000)
+  eden space 4416K,   8% used [0x03a00000, 0x03a58620, 0x03e50000)
+  from space 512K,   0% used [0x03e50000, 0x03e50000, 0x03ed0000)
+  to   space 512K,   0% used [0x03ed0000, 0x03ed0000, 0x03f50000)
+ tenured generation   total 10944K, used 0K [0x18f50000, 0x19a00000, 0x43a00000)
+   the space 10944K,   0% used [0x18f50000, 0x18f50000, 0x18f50200, 0x19a00000)
+ Metaspace       used 1425K, capacity 2240K, committed 2240K, reserved 4480K
+
+Card table byte_map: [0x43a00000,0x43c10000] byte_map_base: 0x439e3000
+
+Polling page: 0x00340000
+
+CodeCache: size=32768Kb used=357Kb max_used=357Kb free=32410Kb
+ bounds [0x01840000, 0x018a0000, 0x03840000]
+ total_blobs=99 nmethods=0 adapters=66
+ compilation: disabled (not enough contiguous free space left)
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (2 events):
+Event: 0.174 Thread 0x0138c400 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x03a06ea8) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u91\6644\hotspot\src\share\vﬂ‹lÑE∆?
+Event: 0.174 Thread 0x0138c400 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x03a07178) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u91\6644\hotspot\src\share\vm\prims\jni.cpp, l
+
+Events (10 events):
+Event: 0.392 loading class java/lang/ProcessEnvironment done
+Event: 0.392 loading class java/lang/ProcessEnvironment$NameComparator
+Event: 0.392 loading class java/lang/ProcessEnvironment$NameComparator done
+Event: 0.392 loading class java/lang/ProcessEnvironment$EntryComparator
+Event: 0.392 loading class java/lang/ProcessEnvironment$EntryComparator done
+Event: 0.392 loading class java/util/Collections$UnmodifiableMap
+Event: 0.392 loading class java/util/Collections$UnmodifiableMap done
+Event: 0.393 loading class java/util/TreeMap
+Event: 0.393 loading class java/util/NavigableMap
+Event: 0.393 loading class java/util/SortedMap
+
+
+Dynamic libraries:
+0x01200000 - 0x01233000 	C:\Program Files\Java\jdk1.8.0_91\bin\java.exe
+0x77520000 - 0x77662000 	C:\Windows\SYSTEM32\ntdll.dll
+0x763d0000 - 0x764a5000 	C:\Windows\system32\kernel32.dll
+0x75510000 - 0x7555b000 	C:\Windows\system32\KERNELBASE.dll
+0x76b30000 - 0x76bd1000 	C:\Windows\system32\ADVAPI32.dll
+0x768d0000 - 0x7697c000 	C:\Windows\system32\msvcrt.dll
+0x77680000 - 0x77699000 	C:\Windows\SYSTEM32\sechost.dll
+0x766f0000 - 0x76792000 	C:\Windows\system32\RPCRT4.dll
+0x767a0000 - 0x76869000 	C:\Windows\system32\USER32.dll
+0x76d30000 - 0x76d7e000 	C:\Windows\system32\GDI32.dll
+0x763c0000 - 0x763ca000 	C:\Windows\system32\LPK.dll
+0x76ed0000 - 0x76f6d000 	C:\Windows\system32\USP10.dll
+0x742e0000 - 0x7447e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+0x76980000 - 0x769d7000 	C:\Windows\system32\SHLWAPI.dll
+0x76be0000 - 0x76bff000 	C:\Windows\system32\IMM32.DLL
+0x76a60000 - 0x76b2d000 	C:\Windows\system32\MSCTF.dll
+0x577e0000 - 0x5789f000 	C:\Program Files\Java\jdk1.8.0_91\jre\bin\msvcr100.dll
+0x6ce50000 - 0x6d21a000 	C:\Program Files\Java\jdk1.8.0_91\jre\bin\client\jvm.dll
+0x6e660000 - 0x6e667000 	C:\Windows\system32\WSOCK32.dll
+0x776d0000 - 0x77705000 	C:\Windows\system32\WS2_32.dll
+0x77670000 - 0x77676000 	C:\Windows\system32\NSI.dll
+0x736e0000 - 0x73712000 	C:\Windows\system32\WINMM.dll
+0x748b0000 - 0x748b9000 	C:\Windows\system32\VERSION.dll
+0x763b0000 - 0x763b5000 	C:\Windows\system32\PSAPI.DLL
+0x73ca0000 - 0x73cac000 	C:\Program Files\Java\jdk1.8.0_91\jre\bin\verify.dll
+0x73320000 - 0x73341000 	C:\Program Files\Java\jdk1.8.0_91\jre\bin\java.dll
+0x73300000 - 0x73313000 	C:\Program Files\Java\jdk1.8.0_91\jre\bin\zip.dll
+0x75760000 - 0x763ac000 	C:\Windows\system32\SHELL32.dll
+0x77110000 - 0x7726d000 	C:\Windows\system32\ole32.dll
+0x75440000 - 0x7544b000 	C:\Windows\system32\profapi.dll
+0x6e9c0000 - 0x6eaab000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx1024M -Dfile.encoding=windows-1252 -Duser.country=PE -Duser.language=es -Duser.variant 
+java_command: com.android.dx.command.Main --dex --force-jumbo --num-threads=4 --multi-dex --output C:\Users\desarrollo1\Desktop\app_transporte\AppPedidos\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_87f7104c6b9e41bea1c98c16374c45bb2f557734 C:\Users\desarrollo1\Desktop\app_transporte\AppPedidos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar
+java_class_path (initial): C:\Users\desarrollo1\AppData\Local\Android\sdk\build-tools\23.0.3\lib\dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\VisualSVN\bin;C:\Program Files\TortoiseSVN\bin
+USERNAME=desarrollo1
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 (6.1.7601.23775)
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, clmul, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 3577256k(328252k free), swap 3609208k(34484k free)
+
+vm_info: Java HotSpot(TM) Client VM (25.91-b14) for windows-x86 JRE (1.8.0_91-b14), built on Apr  1 2016 01:01:28 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Fri Jun 30 15:16:26 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

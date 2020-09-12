@@ -1,0 +1,4 @@
+#Wed Sep 11 10:59:22 COT 2019
+base.0=C\:\\Users\\desarrollo1\\Desktop\\trackinn\\AppPedidos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
